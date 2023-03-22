@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMAYA</title>
+    <!--Estilos de Bootstrap y propios-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="fav icon" href="./IMAGENES/Logo/LogoMenu60x48.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+</head>
+<body class="img-fluid">
+    <header>
+        <!--Nav mobile-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="IMAGENES/Logo/HconDulce100x100.png" alt="Logo" width="48" height="48" class="d-inline-block align-text-top">
+                        <!--<a class="navbar-brand colorTituloLogo" href="#">HUMAYA</a>-->
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    
+    <main>
+        <!--Presentación portada-->
+        <section class="presentacion">
+            <div class="imgPortada">
+                <img class="imgCentral" src="./IMAGENES/Central/imagenCentral.png" alt="imgCentral" srcset="">
+            </div>
+            <div class="portada ">                
+                <h1>DULCES DEL ALMA</h1>
+                <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
+                <button type="button"  class=" btn btn-dark opacity-75 quienes-somos">CONOCENOS</button>
+            </div>
+        </section>
+        <!--Calidad-->
+        <section class="calidad">
+            <div>
+                <h2>LA MEJOR CALIDAD PARA VOS</h2>
+                <!--Card x3 calidad-->
+                <div>card1
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <!--Productos-->
+        <section>
+            <div><!--carrucel x3-->
+                <div>
+                    Carrucel auto
+                </div>
+                <div>
+                    <h2>Titulo producto</h2>
+                    <p>descripcion</p>
+                    <p>Presentacion</p>                    
+                </div>
+                <div><a href="#"><button>+info <!--nutricional--></button></a></div>
+            </div>
+            <div>
+                Carrucel producto elaborados
+            </div>
+        </section>
+        <!--Quienes somos-->
+        <section>
+            <div>
+                <h2>titulo Quienes somos</h2>
+                <p>descripción</p>
+            </div>
+            <!--Nuestros clientes-->
+            <div>
+                <h2>titulo clientes</h2>
+                <div>
+                    Carrucel clientes
+                </div>
+            </div>
+        </section>
+        <!--Contacto-->
+        <section>
+            <h2>Contáctanos</h2>
+            <div>
+                <img src="" alt="">
+            </div>
+            <!-- formulario-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post">
+                                <fieldset>
+                                    <legend class="text-center header"><h4>Déjanos tu consulta y nuestro personal se pondrá en contacto a la brevedad:</h4></legend>
+            
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <label for="Nombre">Nombre</label>
+                                            <input id="fname" name="Nombre" type="text" placeholder="Carlos" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <label for="email">Email</label>
+                                            <input id="email" name="email" type="text" placeholder="Email@example.com" class="form-control">
+                                        </div>
+                                    </div>           
+                                    
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                        <div class="col-md-8">
+                                            <label for="consult">Consulta</label>
+                                            <textarea class="form-control" id="mensaje" name="consulta" placeholder="Escriba su consulta aquí." rows="7"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Suscribirme a NEWSLETTER</label>
+                                    </div>            
+                                    <div class="form-group">
+                                        <div class="col-md-12 text-center">
+                                            <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+        </section>
+        <!--Recetas-->
+        <section>
+            <div>
+                <h2>Recetas</h2>
+            </div>
+            <div>
+                Carrucel api o bbdd
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <footer class="bg-dark text-center text-lg-start text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!--Grid row-->
+              <div class="row my-4">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        
+                  <div class="shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" >
+                    <img src="./IMAGENES/Logo/LogoHumaya100x100.png" height="120" alt=""
+                         loading="lazy" />
+                  </div>
+        
+                  <p class="text-center">REDES</p>  
+        
+                  <ul class="list-unstyled d-flex flex-row justify-content-center">
+                    <li>
+                      <a class="text-white px-2" href="#!">
+                        <i class="fab fa-facebook-square"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="text-white px-2" href="#!">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="text-white ps-2" href="#!">
+                        <i class="fa-brands fa-tiktok"></i>
+                      </a>
+                    </li>
+                  </ul> 
+        
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">MENÚ</h5>
+        
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>PRODUCTOS</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>¿QUIÉNES SOMOS?</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>LOCALES</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>RECETAS</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>CONTACTO</a>
+                    </li>                    
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">NAVEGACIÓN</h5>
+        
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>Preguntas frecuentes</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>Distribuidores</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>Prensa</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>Recetas exclusivas</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class=""></i>Lista de precios</a>
+                    </li>                    
+                  </ul>
+                </div>
+                <!--Grid column-->                
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">UBICACIÓN</h5>
+        
+                  <ul class="list-unstyled">
+                    <li>
+                      <p><i class="fas fa-map-marker-alt pe-2"></i>Monte de Oca 2356, CABA</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
+                    </li>                    
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+              © 2023 Copyright:
+              <a class="text-white" href="https://github.com/Ironfistb.com/">B M L Solutions</a>
+            </div>
+            <!-- Copyright -->
+          </footer>        
+    </footer>
+
+
+
+<!--Scripts de Bootstrap y JS-->
+<script src="https://kit.fontawesome.com/190afdad08.js" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

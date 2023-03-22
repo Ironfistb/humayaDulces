@@ -1,0 +1,25 @@
+.imgCentral {
+    width: 100vw;
+    height: 100%;
+}
+
+..presentacion {
+    position: relative;
+    color: aliceblue;
+    
+}
+
+..imgPortada {    
+    
+    position: absolute;    
+}
+
+..portada {    
+    position: absolute;
+    
+}
+
+.calidad {
+    
+}
+
